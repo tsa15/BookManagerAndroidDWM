@@ -35,6 +35,7 @@ public class CreateUserActivity extends AppCompatActivity {
 
     void setUpToolbar(){
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(R.string.create_new_user);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
     }

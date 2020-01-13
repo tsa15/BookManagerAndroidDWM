@@ -27,6 +27,7 @@
     <string name="password_do_not_match">Password do not match</string>
     <string name="user_created_with_success">User created with success</string>
     <string name="user_created_without_success">Impossible to create this user, please try again</string>
+    <string name="title_activity_main">MainActivity</string>
 
 
 </resources>

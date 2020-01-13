@@ -76,7 +76,9 @@ public class LoginActivity extends AppCompatActivity {
                 cbRemember.isChecked());
         editor.apply();
 
-        //Go to main activity
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     public void onForgotPassword(View view){
